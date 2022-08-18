@@ -1,0 +1,33 @@
+html {
+    background-color: aqua;
+}
+#title {
+    display: flex;
+    justify-content: center;
+}
+#play {
+    display: flex;
+    height: 400px;
+    background-color: blue;
+}
+
+#play div {
+    flex: 1;
+    background-color: black;
+}
+
+.b {
+    height: 400px;
+    width: auto;    
+} 
+
+.container {
+    display: flexbox;
+    height: 100px; 
+}
+
+.container h1, 
+.container button {
+    flex: 1;
+}
+
